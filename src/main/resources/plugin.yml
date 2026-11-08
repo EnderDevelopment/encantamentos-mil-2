@@ -1,0 +1,14 @@
+name: Enchantments1000
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  encantamentos:
+    description: Gives level 1000 enchanted books and custom items.
+    usage: /encantamentos <livros|itens|todos>
+    aliases: [encantos]
+    permission: enchantments1000.use
+permissions:
+  enchantments1000.use:
+    description: Allows the player to receive level 1000 enchantments and custom items.
+    default: op
